@@ -15,8 +15,8 @@ public class StatsService {
         int sum = 0;
         for (int i = 0; i < sales.length; i++) {
             sum = sum + sales[i];
-            average = sum / sales.length;
         }
+        average = sum / sales.length;
         return average;
     }
 
